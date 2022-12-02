@@ -1,0 +1,26 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="w=1rH]gGUYX5PFtOg-d$" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="boP}SrvmAtOzYT!$_/iU"><value name="color"><shadow type="colorindexpicker" id="F27Z7G}zV-IoxI_tmI@S"><field name="index">5</field></shadow></value><next><block type="particlesStartScreenAnimation" id="6oi}B,N34s~UTUo+y=TL"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="effect">effects.starField</field><value name="duration"><shadow type="timePicker" id="Esq)5(FGP]x~!6E:k{/X"><field name="ms">500</field></shadow></value><next><block type="device_pause" id=";9Nfro8gP5m#TO`qLe]h"><value name="pause"><shadow type="timePicker" id="cZmCpnul5UUWp6K-^/9R"><field name="ms">2000</field></shadow></value><next><block type="game_dialog_set_frame" id="n(;bT_kq/!Tr|yurhlkT"><value name="frame"><shadow type="dialog_image_picker" id="%@oM:v%9%IXyUzmg,+qf"><field name="img">img`
+..bbbbbbbbbbbbbbbbbbbb..
+.bd111111111111111111db.
+bd1dbbbbbbbbbbbbbbbbd1db
+b1dbbbbbbbbbbbbbbbbbbd1b
+b1bd1111111111111111db1b
+b1b111111111111111111b1b
+b1b111111111111111111b1b
+b1b111111111111111111b1b
+b1b111111111111111111b1b
+b1b111111111111111111b1b
+b1b111111111111111111b1b
+b1b111111111111111111b1b
+b1b111111111111111111b1b
+b1b111111111111111111b1b
+b1b111111111111111111b1b
+b1b111111111111111111b1b
+b1b111111111111111111b1b
+b1b111111111111111111b1b
+b1b111111111111111111b1b
+b1bd1111111111111111db1b
+bd1bbbbbbbbbbbbbbbbbb1db
+bbd111111111111111111dbb
+.bbbbbbbbbbbbbbbbbbbbbb.
+..bbbbbbbbbbbbbbbbbbbb..
+`</field><data>{"commentRefs":[],"fieldData":{"img":"%@oM:v%9%IXyUzmg,+qf"}}</data></shadow></value><next><block type="game_dialog_set_text_color" id="62,jn*z?(d{)vKe)G!~+"><value name="color"><shadow type="colorindexpicker" id="N)+iE^DmGPh3{yQHRaH;"><field name="index">10</field></shadow></value><next><block type="game_show_long_text" id="POBNM=sX$_8Q1_U:Sj;*"><field name="layout">DialogLayout.Center</field><value name="str"><shadow type="text" id="A/3!!hy8]P*n0Ub*5Tsv"><field name="TEXT">WELCOME TO MR.B'S EXAMPLE!</field></shadow></value><next><block type="particlesEndScreenAnimation" id="lLtu3G$Z6YwQWIoR){:-"><field name="effect">effects.starField</field><next><block type="mixer_play_sound_until_done" id="O[[XkqyxF;ayne+O@Ild"><field name="sound">music.powerUp</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
